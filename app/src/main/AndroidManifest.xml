@@ -16,7 +16,7 @@
             android:name=".presentation.DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.CardListActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
