@@ -1,4 +1,4 @@
-package com.standard.multiviewtyperecyclerview.presentation
+package com.standard.multiviewtyperecyclerview.presentation.main
 
 enum class MultiViewEnum(val viewType: Int) {
     BLUE(0),

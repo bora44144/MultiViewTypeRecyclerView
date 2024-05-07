@@ -1,10 +1,11 @@
-package com.standard.multiviewtyperecyclerview.data
+package com.standard.multiviewtyperecyclerview.data.database
 
-import com.standard.multiviewtyperecyclerview.presentation.MultiViewEnum
+import com.standard.multiviewtyperecyclerview.data.entity.CardEntity
+import com.standard.multiviewtyperecyclerview.presentation.main.MultiViewEnum
 
-fun cardList(): List<Card> {
+fun cardList(): List<CardEntity> {
     return listOf(
-        Card(
+        CardEntity(
             0,
             "Anderson",
             "2423 3581 9503 2412",
@@ -14,7 +15,7 @@ fun cardList(): List<Card> {
             "Visa",
             MultiViewEnum.BLUE
         ),
-        Card(
+        CardEntity(
             1,
             "Anderson",
             "1234 5678 1234 1111",
@@ -24,7 +25,7 @@ fun cardList(): List<Card> {
             "Master",
             MultiViewEnum.LIGHTBLUE
         ),
-        Card(
+        CardEntity(
             2,
             "Anderson",
             "4443 2345 3464 1231",

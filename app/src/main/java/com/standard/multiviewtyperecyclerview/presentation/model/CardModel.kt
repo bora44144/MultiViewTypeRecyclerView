@@ -1,11 +1,11 @@
-package com.standard.multiviewtyperecyclerview.data
+package com.standard.multiviewtyperecyclerview.presentation.model
 
 import android.os.Parcelable
-import com.standard.multiviewtyperecyclerview.presentation.MultiViewEnum
+import com.standard.multiviewtyperecyclerview.presentation.main.MultiViewEnum
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class Card(
+data class CardModel(
     val id: Long,
     val userName: String,
     val cardNumber: String,
