@@ -5,6 +5,7 @@ import com.standard.multiviewtyperecyclerview.presentation.MultiViewEnum
 fun cardList(): List<Card> {
     return listOf(
         Card(
+            0,
             "Anderson",
             "2423 3581 9503 2412",
             "A Debit Card",
@@ -14,6 +15,7 @@ fun cardList(): List<Card> {
             MultiViewEnum.BLUE
         ),
         Card(
+            1,
             "Anderson",
             "1234 5678 1234 1111",
             "A Prepaid Card",
@@ -23,6 +25,7 @@ fun cardList(): List<Card> {
             MultiViewEnum.LIGHTBLUE
         ),
         Card(
+            2,
             "Anderson",
             "4443 2345 3464 1231",
             "A Credit Card",
