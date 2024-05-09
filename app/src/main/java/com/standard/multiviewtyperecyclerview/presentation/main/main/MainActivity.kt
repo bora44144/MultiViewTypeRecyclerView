@@ -1,4 +1,4 @@
-package com.standard.multiviewtyperecyclerview.presentation.main
+package com.standard.multiviewtyperecyclerview.presentation.main.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,8 +6,8 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.standard.multiviewtyperecyclerview.databinding.ActivityMainBinding
-import com.standard.multiviewtyperecyclerview.presentation.detail.DetailActivity
-import com.standard.multiviewtyperecyclerview.presentation.model.CardModel
+import com.standard.multiviewtyperecyclerview.presentation.main.detail.DetailActivity
+import com.standard.multiviewtyperecyclerview.presentation.main.model.CardModel
 
 class MainActivity : AppCompatActivity() {
     private val binding : ActivityMainBinding by lazy { ActivityMainBinding.inflate(layoutInflater) }

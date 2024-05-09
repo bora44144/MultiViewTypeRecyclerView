@@ -1,4 +1,4 @@
-package com.standard.multiviewtyperecyclerview.presentation.main
+package com.standard.multiviewtyperecyclerview.presentation.main.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,7 +7,7 @@ import com.standard.multiviewtyperecyclerview.databinding.ItemBlueCardBinding
 import com.standard.multiviewtyperecyclerview.databinding.ItemLightblueCardBinding
 import com.standard.multiviewtyperecyclerview.databinding.ItemOrangeCardBinding
 import com.standard.multiviewtyperecyclerview.databinding.UnknownItemBinding
-import com.standard.multiviewtyperecyclerview.presentation.model.CardModel
+import com.standard.multiviewtyperecyclerview.presentation.main.model.CardModel
 
 class CardAdapter(private val onClick: (CardModel) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     var cardModelList = listOf<CardModel>()

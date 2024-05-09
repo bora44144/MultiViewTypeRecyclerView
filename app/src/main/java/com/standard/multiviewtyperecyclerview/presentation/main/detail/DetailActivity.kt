@@ -1,10 +1,10 @@
-package com.standard.multiviewtyperecyclerview.presentation.detail
+package com.standard.multiviewtyperecyclerview.presentation.main.detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.standard.multiviewtyperecyclerview.databinding.ActivityDetailBinding
 import com.standard.multiviewtyperecyclerview.extension.getParcelableExtra
-import com.standard.multiviewtyperecyclerview.presentation.model.CardModel
+import com.standard.multiviewtyperecyclerview.presentation.main.model.CardModel
 
 class DetailActivity : AppCompatActivity() {
     companion object {

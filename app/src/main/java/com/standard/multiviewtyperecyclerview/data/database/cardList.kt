@@ -1,7 +1,7 @@
 package com.standard.multiviewtyperecyclerview.data.database
 
-import com.standard.multiviewtyperecyclerview.data.entity.CardEntity
-import com.standard.multiviewtyperecyclerview.presentation.main.MultiViewEnum
+import com.standard.multiviewtyperecyclerview.data.database.model.CardEntity
+import com.standard.multiviewtyperecyclerview.presentation.main.main.MultiViewEnum
 
 fun cardList(): List<CardEntity> {
     return listOf(

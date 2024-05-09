@@ -1,7 +1,7 @@
-package com.standard.multiviewtyperecyclerview.presentation.mapper
+package com.standard.multiviewtyperecyclerview.presentation.main.mapper
 
-import com.standard.multiviewtyperecyclerview.data.entity.CardEntity
-import com.standard.multiviewtyperecyclerview.presentation.model.CardModel
+import com.standard.multiviewtyperecyclerview.data.database.model.CardEntity
+import com.standard.multiviewtyperecyclerview.presentation.main.model.CardModel
 
 fun List<CardEntity>.asCardModel(): List<CardModel> {
     return map {
